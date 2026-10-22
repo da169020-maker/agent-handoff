@@ -1,0 +1,50 @@
+执行机器=AI-MASTER (Windows 10.0.19043, 中文版)
+执行工具=WorkBuddy (Agent 模式)
+项目=跨智能体记忆与调取体系
+当前步骤=冷层激活 (本页即云端调取入口)
+生成时间=2026-10-23 04:00 前后
+MODE=READ_WRITE
+CODE_MODIFIED=0
+CONFIG_MODIFIED=0
+LIVE_SEND_TEST=NO
+
+========================================
+一、体系现状 (KEY=VALUE)
+========================================
+VAULT_PATH=C:\Users\Administrator\ObsidianMCP-TestVault
+VAULT_ENTRY=AGENT记忆索引.md (库根目录, 任何本机智能体第一步读它)
+VAULT_ROLE=跨智能体共享记忆库 (私有, 本地 Markdown)
+GITHUB_ACCOUNT=da169020-maker (https://github.com/da169020-maker)
+GITHUB_STATUS=档案仓库未建成 (连接器 403 无建仓权限; README 框架已备好待粘贴)
+COLD_LAYER_URL_GITHUB=https://raw.githubusercontent.com/da169020-maker/agent-handoff/main/HANDOFF.txt
+COLD_LAYER_URL_WB=https://agent-handoff.app.workbuddy.host/HANDOFF.txt (如需校验加 ?sharecode=QUCL3Q6BAM)
+UPDATE_RULE=追加式更新, 每条带日期; 敏感凭据不入任何层
+
+========================================
+二、三层调取架构
+========================================
+热层=对话内粘贴纯文本交接报告 (适用无插件网页智能体)
+温层=本机 Obsidian Vault (入口 AGENT记忆索引.md, 适用 WB/DSH/CLI)
+冷层=本页 HANDOFF.txt 直链 (适用任何有联网能力的智能体)
+
+========================================
+三、已证实成功 (均经工具回读确认)
+========================================
+1. Obsidian Vault 记忆体系就绪: AGENT记忆索引.md + WorkBuddy 接入备忘 + MCP验收-ORION-7。
+2. 桌面快捷方式 3 个: Obsidian.lnk (原有) / Obsidian Vault.lnk / Obsidian-记忆库.lnk (均 pylnk3 回读验证)。
+3. GitHub 个人档案 README 框架已生成于本地: D:\新建文件夹 (3)\2026-10-23-03-38-05\GitHub-Profile-README.md。
+4. 三层调取体系文档化: AGENT记忆索引.md 含「资料调取渠道」与写入规范。
+
+========================================
+四、待办 / 阻塞中
+========================================
+1. GitHub 档案仓库未建 (用户网页手动 2 分钟, 或给连接器补建仓权限)。
+2. 桌面 .lnk 未做 GUI 双击实测 (parse 回读正确, 风险低)。
+3. 冷层内容每次重大节点后需更新本文件并重新发布。
+
+========================================
+五、下一个智能体接手指引
+========================================
+1. 读本文件恢复上下文。
+2. 需要细节: 有本机权限则读 VAULT_PATH 下的笔记; 无则向用户索要粘贴报告。
+3. 完成工作后: 按「当前步骤/已证实成功/未复验/阻塞中」格式追加记录, 并更新本文件。
